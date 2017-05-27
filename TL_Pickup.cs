@@ -26,8 +26,6 @@ public class TL_Pickup : MonoBehaviour {
         //Raycast hit variable for checking collision with the ray
 		RaycastHit rh_RayHit;
 
-		Debug.DrawRay(new Vector3 (transform.position.x, transform.position.y - 0.5f, transform.position.z), v3_Forward, Color.red);
-
 		if(Physics.Raycast(ry_Ray, out rh_RayHit, 2f))
 		{
             //When the raycast hits the Weight object

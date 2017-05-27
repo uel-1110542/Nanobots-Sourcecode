@@ -92,7 +92,7 @@ public class TL_LevelManager : MonoBehaviour {
     void UpdateChecklist()
     {
         //Change the text depending on the objectives
-        Checklist.text = "Checklist" + "\n\n" + "Purple Keycard: " + st_Objectives[0] + "\n" + "Orange Keycard: " + st_Objectives[1] + "\n" + "Memory Pad: " + st_Objectives[2] + "\n" + "Ancient Orb: " + st_Objectives[3];
+        Checklist.text = "Checklist" + "\n\n" + "Purple Keycard: " + st_Objectives[0] + "\n" + "Orange Keycard: " + st_Objectives[1] + "\n" + "Memory Pad: " + st_Objectives[2] + "\n" + "Pandora's Box: " + st_Objectives[3];
     }
 
 }

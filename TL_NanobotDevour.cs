@@ -27,7 +27,7 @@ public class TL_NanobotDevour : MonoBehaviour {
 				transform.localScale = new Vector3 (transform.localScale.x - 0.05f, transform.localScale.y - 0.05f, transform.localScale.z - 0.05f);
 
 				//If the local scale becomes very small, it will destroy the object
-				if(transform.localScale.x < 0.10f && transform.localScale.y < 0.10f && transform.localScale.z < 0.10f)
+				if(transform.localScale.x < 0.10f)
 				{
 					Destroy (gameObject);
 				}
